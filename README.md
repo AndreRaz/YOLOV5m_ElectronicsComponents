@@ -10,3 +10,9 @@ de imagenes de diversos componentes, permitiendo su identificación automática 
 1. YOLO y sus dependencias
 2. Python 3.8+
 
+
+## Referencias
+
+[YoloV5m](https://github.com/ultralytics/yolov5)
+[Documentación de YOLOv5 en español](https://docs.ultralytics.com/es/yolov5/)
+
