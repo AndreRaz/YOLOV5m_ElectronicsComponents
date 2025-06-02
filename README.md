@@ -32,8 +32,8 @@ import torch
 
 #Resultados 
 
-![Clasificación](R1.png)
-![Clasificación_2](R2.png)
+![Clasificación](R1.jpeg)
+![Clasificación_2](R2.jpeg)
 
 
 
