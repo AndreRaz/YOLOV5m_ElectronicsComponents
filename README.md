@@ -47,6 +47,9 @@ Y sigue la siguiente estructura
 ![Clasificación](R1.jpeg)
 ![Clasificación_2](R2.jpeg)
 
+Y la matriz de confusión de nuestro modelo nos queda de la siguiente manera
+![Confusion](MatrizConf.png)
+
 ## Referencias
 
 - [YoloV5m](https://github.com/ultralytics/yolov5)
