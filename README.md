@@ -30,6 +30,12 @@ import torch
 1. Ejecura el notebook principal para entrenamiento y pruebas
 [YoloV5mColab](YOLOV5m_ElectronicsComponents.ipynb)
 
+#Resultados 
+
+![Clasificación](R1.png)
+![Clasificación_2](R2.png)
+
+
 
 
 
