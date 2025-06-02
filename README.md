@@ -48,7 +48,7 @@ Y sigue la siguiente estructura
 ![Clasificación_2](R2.jpeg)
 
 Y la matriz de confusión de nuestro modelo nos queda de la siguiente manera
-![Confusion](MatrizConf.png)
+![Confusion](MatrizConf.jpeg)
 
 ## Referencias
 
