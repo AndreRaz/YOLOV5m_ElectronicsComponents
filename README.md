@@ -1,39 +1,58 @@
 # YOLOV5m_ElectronicsComponents
+
 Proyecto final de la materia Machine Learning, Universidad de Guanajuato, Junio 2025
 
 ## Descripción 
-Este proyecto tuvo como objetivo el reentrenar la arquitectura YOLOv5m para detectar
-componentes electrónicos en tiempo real. El modelo ha sido adaptado y entrenado con un conjunto
-de imagenes de diversos componentes, permitiendo su identificación automática en fotos o videos.
+Este proyecto tiene como objetivo reentrenar la arquitectura YOLOv5m para detectar componentes electrónicos en tiempo real. El modelo ha sido adaptado y entrenado con un conjunto de imágenes de diversos componentes, permitiendo su identificación automática en fotos o videos.
 
 ## Requisitos
-1. YOLO y sus dependencias
-2. Python 3.8+
+- Python 3.8+
+- ultralytics (YOLO y dependencias)
 
 ## Instalación
 
-1. Puedes clonar este repositorio
-```bash
-git clone https://github.com/AndreRaz/YOLOV5m_ElectronicsComponents.git
-cd YOLOV5m_ElectronicsComponents
-```
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/AndreRaz/YOLOV5m_ElectronicsComponents.git
+   cd YOLOV5m_ElectronicsComponents
+   ```
 
-2. Para instalar las dependencias
-```python
-pip install ultralytics
-import torch
-
-```
+2. Instala las dependencias:
+   ```bash
+   pip install ultralytics
+   ```
 
 ## Uso
 
-1. Ejecura el notebook principal para entrenamiento y pruebas
-[YoloV5mColab](YOLOV5m_ElectronicsComponents.ipynb)
+1. Ejecuta el notebook principal para entrenamiento y pruebas:
+   [YoloV5mColab](YOLOV5m_ElectronicsComponents.ipynb)
 
-#Resultados 
+2. (Opcional) Para realizar inferencia en imágenes propias, puedes usar el siguiente fragmento en un notebook:
+   ```python
+   from ultralytics import YOLO
+   model = YOLO('ruta/a/tu/modelo.pt')
+   results = model('ruta/a/tu/imagen.jpg', show=True)
+   ```
+
+## Dataset
+El dataset utilizado para este repositorio es el dataset ElectroCom61 y lo puedes encontrar en [ElectroCom61](https://github.com/faiyazabdullah/ElectroCom61)
+Y sigue la siguiente estructura 
+![Estructura](folder_structure.png)
+
+
+## Resultados 
 
 ![Clasificación](R1.jpeg)
 ![Clasificación_2](R2.jpeg)
+
+## Referencias
+
+- [YoloV5m](https://github.com/ultralytics/yolov5)
+- [Documentación de YOLOv5 en español](https://docs.ultralytics.com/es/yolov5/)
+
+## Licencia
+
+Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
 
 
