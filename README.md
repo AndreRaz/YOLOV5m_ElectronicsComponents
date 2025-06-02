@@ -2,7 +2,7 @@
 
 Proyecto final de la materia Machine Learning, Universidad de Guanajuato, Junio 2025.
 
-# Enlace al video de YouTube: https://youtu.be/zH5oiFn5MZ4
+Enlace al video de YouTube -> https://youtu.be/zH5oiFn5MZ4
 
 ## Descripción 
 Este proyecto tiene como objetivo reentrenar la arquitectura YOLOv5m para detectar componentes electrónicos en tiempo real. El modelo ha sido adaptado y entrenado con un conjunto de imágenes de diversos componentes, permitiendo su identificación automática en fotos o videos.
