@@ -28,7 +28,7 @@ import torch
 ## Uso
 
 1. Ejecura el notebook principal para entrenamiento y pruebas
-[YoloV5m](https://github.com/ultralytics/yolov5)
+[YoloV5mColab](YOLOV5m_ElectronicsComponents.ipynb)
 
 
 
