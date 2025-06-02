@@ -45,7 +45,7 @@ Y sigue la siguiente estructura
 
 ![Clasificación](R1.jpeg)
 ![Clasificación_2](R2.jpeg)
-![Vídeo de prueba](video_test_2_boxes)
+![Vídeo de prueba](./video_test_2_boxes)
 
 ## Referencias
 
